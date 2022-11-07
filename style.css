@@ -12,7 +12,9 @@ header{
   background-color: #1f1f1f;
   padding: 5px 20px;
 }
-
+#hero {
+  position: relative;
+}
 #logo-container{
   display: flex;
   color: #fff;
@@ -27,11 +29,25 @@ header{
 #fondo {
   display: inline-block;
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 
 #hero .container-info{
+  display: flex;
+  background-color: grey;
+  width:100%;
   position: absolute;
-  top: 50;
+  top: 0;
   left: 0;
+  color: white;
+  padding: 0 50px;
+}
+
+#hero .container-info #fotografia{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 80px;
+  margin: 
 }
